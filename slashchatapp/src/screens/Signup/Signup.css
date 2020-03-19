@@ -1,0 +1,37 @@
+.signup-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.signup-container-inner1 {
+  flex: 1;
+  display: flex;
+}
+.signup-container-inner1-div1 {
+  flex: 7;
+}
+.signup-container-inner1-div2 {
+  display: flex;
+  flex: 2;
+  margin-left: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+.signup-container-inner2 {
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center;
+}
+.signup-form {
+  max-width: 300px;
+  cursor: default !important;
+}
+
+.signup-form-button {
+  width: 100%;
+}
+.ant-card-hoverable {
+  cursor: default;
+}

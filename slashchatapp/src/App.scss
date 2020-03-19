@@ -1,0 +1,22 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.chat-box-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.chat-box {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  margin-top: 10px;
+}
+.chat-divider-parent {
+  ul {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
